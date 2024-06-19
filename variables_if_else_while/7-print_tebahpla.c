@@ -8,13 +8,9 @@ int main(void)
 {
 	int numbers;
 
-for (numbers = '0'; numbers <= '9'; numbers++)
+for (numbers = 122; numbers >= 97; numbers--)
 {
-	putchar(numbers);
-}
-for (numbers = '9'; numbers <= '0'; numbers++)
-{
-	putchar(numbers);
+putchar(numbers);
 }
 putchar('\n');
 return (0);
