@@ -1,13 +1,16 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- * _add - Write a function that adds
- * two integers and returns
- * @a1: integer
- * @b2: integer
- * Return: 0
- */
-int add(int a1, int a2);
+ * add - Function that adds two integers
+ *
+ * @a: First integer
+ *
+ * @b: Second integer
+ *
+ * Return: The result of additions
+*/
+
+int add(int a, int b)
 {
-return(a1 + a2);
+	return (a + b);
 }
