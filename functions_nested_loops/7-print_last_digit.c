@@ -1,18 +1,20 @@
 #include "main.h"
+
 /**
- * print_last_digit - Write a function that prints the last digit of a number
- *@a: interger
- */
-int print_last_digit(int a)
+ * print_last_digit - function fo print the last digit of a number
+ *
+ * @num: the input
+ *
+ * Return: the last digit of the input
+*/
+
+int print_last_digit(int num)
 {
-	int a;
-	int last_digit;
+	int last_digit = num % 10;
 
-	for (last_digit = 48; last_digit <= 57; last_digit++)
-	{
+	if (num < 0)
+		last_digit *= -1;
 
-	_putchar(last_digit)
-	}
-		return (lastdigit);
+	_putchar(last_digit + '0');
+	return (last_digit);
 }
-print_last_digit(125)
